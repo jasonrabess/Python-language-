@@ -6,23 +6,29 @@ Hello World
 # comment line for reminders
 print("hello program !")
 hello program !
+
 # intergers are any whole numbers
 print (1,2,3,4)
 1 2 3 4
+
 # A interger string text
 print("1,2,3,4")
 1,2,3,4
+
 # variables are name containers
 print ("stock_price")
 stock_price
+
 # Variable can hold strings 
 current_message="I am a cipher"
 print (current_message)
 I am a cipher
+
 # Variable as data type
 stock_price=45.00
 print("how much is worth this stock",stock_price)
 how much is worth this stock 45.0
+
 # type returns the data type of the function
 type("hello world")
 str
@@ -30,12 +36,15 @@ type (0.1)
 float
 type (1)
 int
+
 # numeric equation single line math addition
 3+6
 9
+
 # single line concatenated string
 print("i don't wear","any hats")
 i don't wear any hats
+
 # users prompt using input
 cipher_name=input("enter ciphers name:")
 print ("hi", cipher_name)
@@ -43,9 +52,11 @@ enter ciphers name:jason
 hi jason
 print('i said "i can not stop the change "')
 i said "i can not stop the change "
+
 # single quotes in double quotes , double quotes in single quotes
 print("It's time to save your code")
 It's time to save your code
+
 # string format methods
 print("cipher is workin in his office".capitalize())
 Cipher is workin in his office
@@ -61,6 +72,7 @@ print("fav_color".swapcase())
 FAV_COLOR
 print("fav_color".title())
 Fav_Color
+
 # searching string sequence
 menu=("salad,drink,pizza,bread")
 print('bread' in menu)
@@ -68,6 +80,7 @@ True
 menu=("salad,drink,pizza,bread")
 print('chips'in menu)
 False
+
 # defining a function 
 
 def say_hi():
@@ -82,6 +95,7 @@ def yell_this (phrase):
 yell_this("now time to sleep")
     
 Now Time To Sleep!
+
 # create a function with a return
 
 def msg_double (phrase):
@@ -90,6 +104,7 @@ def msg_double (phrase):
 msg_2x =msg_double('let us go')
 print(msg_2x)
 PLEASE LET US GO PLEASE
+
 # sequence 
 
 
@@ -107,6 +122,7 @@ number_needed=how_many()
 print(number_needed,"will be order")
 please enter how many u want:4
 4 will be order
+
 # true or false conditionals
 
 pizza_type=input('"a" for supreme or "b" for veggie special: ')
@@ -131,6 +147,7 @@ else:
 "a" for supreme or "b" for veggie special: a
 "c" for pepperoni or "d" for mushroom: c
 here is your pepperoni supreme pizza
+
 # comparison operators
 
 4>5
@@ -177,6 +194,7 @@ if x != test_value:
 else:
     print('x is', test_value)
 x is 45
+
 # string comparison
 
 "hello" < "Hello"
@@ -200,6 +218,7 @@ if msg.lower() == prediction.upper():
 else:
     print("message not as expected")
 message not as expected
+
 # conditional
 
 weather = input("Enter weather (sunny, rainy, snowy): ") 
@@ -230,6 +249,7 @@ else:
     print(guess, "is not a valid guess (1-3)")
 Enter a guess for the secret number (1-3): 2
 Guess is right
+
 # casting with int() & str ()
 
 weight1 = '60' 
@@ -245,6 +265,7 @@ num_3 = 10
 total_number = str(num_3)+num_1+num_2
 print(total_number)
 101115
+
 # input str cast to int
 
 student_age = input('enter student age (integer): ')
@@ -259,6 +280,7 @@ age_in_decade = student_age + '5'
 print('In a decade the student will be', age_in_decade)
 enter student age (string): '45'
 In a decade the student will be '45'5
+
 # math operator
 
 def million_maker():
@@ -268,6 +290,7 @@ def million_maker():
 print("Now you have", million_maker())
 enter a non-decimal number you wish were bigger: 0
 Now you have 0
+
 # nested conditionals
 
 print("Hi, welcome to the sandwich shop.  Please select a sandwich.")
@@ -302,6 +325,7 @@ Please select a cheese.
 Here is your Manchego Cheese sandwich.  Thank you.
 
 Goodbye!
+
 # nested condiionals escape sequence
 
 student_age = 17
@@ -321,6 +345,7 @@ print("for a newline use \\n")
 "quotes in quotes"
 I've said "save your notebook," so let's do it!
 for a newline use \n
+
 # while true loop
 
 number_guess = "0"
@@ -377,6 +402,7 @@ print("\n" + student_fname.title(),"has been entered as first name")
 enter student's first (Letters only, No spaces): jason
 
 Jason has been entered as first name
+
 # operation with numbers 
 
 21*21.5
@@ -395,6 +421,7 @@ Jason has been entered as first name
 194481
 21**4.4
 657301.913883832
+
 # indexing
 x='i like us to visit your favorite museum'
 x[0]
@@ -412,6 +439,7 @@ print(a+ b+c+d+e)
 iluvu
 print(x[0]+ x[2]+x[7]+x[13] +x[21])
 iluvu
+
 # slicing
 
 x='i like us to visit your favorite museum'
@@ -422,6 +450,7 @@ print(y)
 
     
 i like us
+
 # find location in sting
 
 x.find('your')
@@ -430,6 +459,7 @@ x.find('your')
 
 print(id(x),id(y))
 139879002757584 139879000108016
+
 # logic operators
 
 x=6
@@ -446,6 +476,7 @@ print(not(x>2 or y>2))
 False
 print(not(x>2 and y<2))
 True
+
 # assignments
 
 p=5
@@ -465,6 +496,7 @@ x=9
 x+= 5
 print(x)
 14
+
 # if operator statement
 
 x = int (input("Enter an interger days in year: "))
@@ -476,6 +508,7 @@ else:
 Enter an interger days in year: 364
 Enter an second interger days from last service: 300
 364 application accepted 300
+
 # if operator statement program block
 
 purchase_price= float (input("Enter the purchase price of the stock: "))
@@ -493,6 +526,7 @@ Enter the purchase price of the stock: 8
 Enter the current price of the stock: 9
 hold don't do anything
 your unrealized profit is -1.0 dollars per share
+
 # indenting if operator statement nested block 
 
 purchase_price= float (input("purchase price?"))
@@ -515,6 +549,7 @@ purchase price?8
 price now?16
 number of days position held?7
 profit taking,keep position open
+
 # calling a function ; black box ;
 
 x=20
@@ -522,12 +557,14 @@ y=11
 z=max(x,y)
 print(z)
 20
+
 # none return
 
 def spam(x):
     x=x+1
 print(spam(5))
 None
+
 # multiple returns
 
 def minmax(x,y):
@@ -535,6 +572,7 @@ def minmax(x,y):
 x,y= minmax(7,2)
 print(x,y)
 2 7
+
 # passing agruments to a function
 
 def div(x,y):
@@ -542,12 +580,14 @@ def div(x,y):
 a=30
 print(div(a,10))
 3.0
+
 #first order function
 
 def order_by(a,b,order):
     return order(a,b)
 order_by(4,7,max)
 7
+
 # list sequence order 
 
 x=[4,5,6,7]
@@ -557,18 +597,21 @@ print (x)
 print (y)
 [4, 5, 6, 7]
 []
+
 # inserting items into a list
 
 x=[2,4]
 x.insert(0,'half')
 print (x)
 ['half', 2, 4]
+
 # adding items to a list
 x=[]
 x.append('one')
 x.append('two')
 print (x)
 ['one', 'two']
+
 # unpacking a list
 # += extends a viarable
 
@@ -576,6 +619,7 @@ X=[]
 x.extend ([1,2,3])
 print (x)
 ['one', 'two', 1, 2, 3]
+
 # removing items from a list
 # pop ; location
 # remove ; specific item
@@ -591,12 +635,14 @@ print (x)
 [1, 2, 3, 4, 5, 6, 7, 8]
 [1, 2, 3, 5, 6, 7, 8]
 [1, 2, 3, 5, 6, 8]
+
 # mutable list
 
 x=[1,2,3,4]
 x[0]=8
 print(x)
 [8, 2, 3, 4]
+
 # gotcha list
 # mutable vs immutable
 
@@ -615,6 +661,7 @@ print(spam(1))
 print(spam(2))
 [1]
 [1, 2]
+
 # range iteration
 x=[1,2,3,4,5,6,7,8,9,]
 for index in range (len(x)):
@@ -651,14 +698,17 @@ prices=[('aapl',45.98),('ion',55.45),('gs',25.95) ]
 ticker='google'
 print(search_list(prices,ticker))
 None
+
 # dictionary :key value pair {}
 mktcap={'aapl':45.9,'ion':55.4,'gs':25.9}
 mktcap['gs']
 25.9
+
 # add key to dictionary
 mktcap['google']=99.9
 print(mktcap)
 {'google': 99.9, 'gs': 25.9, 'ion': 55.4, 'aapl': 45.9}
+
 # remove a key from dictionary
 
 del(mktcap['google'])
@@ -673,11 +723,13 @@ for key in mktcap:
 25.9
 55.4
 45.9
+
 # set : unorder collection of unique objects
 
 tickers={"aapl","gs","ion"}
 "aapl" in tickers
 True
+
 # date time libary
 
 d1="10/24/2017"
@@ -698,13 +750,15 @@ else:
 not a match,try again tomorrow: todd
 #access sub_string by step size
 
-student_name="cipher"
+student_name="cipher
+
 # print(student_name[:])
 # print(student_name,"\n")
 # print(student_name)
 # print(student_name[::2])
 print(student_name[1::2])
 ihr
+
 #iteration using for & in
 word = "cello"
 
@@ -726,6 +780,7 @@ for ltr in student_name:
         
 print(student_name,"to",new_name)
 SKye to SKYe
+
 #return string information
 
 work_tip ="save your code"
@@ -734,6 +789,7 @@ print("number of characters in string")
 len(work_tip)
 number of characters in string
 14
+
 #appending a value in a list
 simple_list =[1,2,3,4]
 print("simple_list before:", simple_list)
@@ -743,6 +799,7 @@ print("\nsimple_list after: ",simple_list)
 simple_list before: [1, 2, 3, 4]
 
 simple_list after:  [1, 2, 3, 4, 3]
+
 #insert a new value for a index
 party_list =["joana","fred","tod"]
 print("party_list before:", party_list,"\n")
@@ -778,6 +835,7 @@ print("sample_list before: ")
 
 import numpy as np
 import numpy as np
+
 # creating a numpy array
 ax = np.array([1,2,3,4,5])
 print(ax,id(ax),len(ax))
@@ -801,6 +859,7 @@ print(ax)
 [[ 0.  1.  2.  3.  4.  5.]
  [10. 11. 12. 13. 14. 15.]
  [20. 21. 22. 23. 24. 25.]]
+ 
 # indexing array
 ax[1,3]
 13.0
@@ -821,6 +880,7 @@ array([[ 0.,  1.],
        [20., 21.],
        [22., 23.],
        [24., 25.]])
+       
 # creating initialized arrays
 ax=np.arange(10)
 print(ax)
@@ -845,6 +905,7 @@ array([[1., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
        [0., 0., 0., 0., 0., 0., 0., 1., 0., 0.],
        [0., 0., 0., 0., 0., 0., 0., 0., 1., 0.],
        [0., 0., 0., 0., 0., 0., 0., 0., 0., 1.]])
+       
 # matrix multiplications
 ax = np.arange(10)
 ay = np.array([ax,ax])
@@ -856,6 +917,7 @@ ay.shape
 np.dot(ay,ay.reshape(10,2))
 array([[220, 265],
        [220, 265]])
+       
 #comparing numphy array with lists
 n=10
 ax=np.array([np.arange(n)**2,np.arange(n)**3])
@@ -866,6 +928,7 @@ np.dot(ax,ay)
  [  0   1   8  27  64 125 216 343 512 729]]
 array([[ 15333, 120825],
        [120825, 978405]], dtype=int32)
+       
 # functionalize this
 ​
 def dotproduct(n):
@@ -881,6 +944,7 @@ dotproduct(10)
 ​
 ​
 datetime.timedelta(0)
+
 # do the same with python list
 def dot_product_list(n):
     x= [x**2 for x in range (n)]
@@ -903,6 +967,7 @@ for n in [10,100,1000,1000]:
 100	0:00:00	0:00:00
 1000	0:00:00.003994	0:00:00.003994
 1000	0:00:00	0:00:00.003988
+
 #selecting elements from an array
 x=[[0,1,2,3,4,5],[10,11,12,1,14,15],[20,21,22,23,24,25]]
 ax=np.array(x,float)
@@ -913,6 +978,7 @@ array([[1, 0, 1, 0, 1, 0],
 import scipy
 scipy.nanmean(x)
 11.833333333333334
+
 #random number support in numpy
 np.random.normal(size=10)
 np.random.normal(size=(100,100))
@@ -934,11 +1000,13 @@ from pandas_datareader import data
 import numpy as np
 import matplotlib.pyplot as plt
 import datetime as dt
+
 # the structure of dataframe
 pd.DataFrame([[1,2,3],[1,2,3]],columns=['A','B','C'])
 A	B	C
 0	1	2	3
 1	1	2	3
+
 #accessing columns and rows
 df=pd.DataFrame([['r1','00','01','02'],['r2','10','11','12'],['r3','20','21','22']],columns=['row_label','A','B','C'])
 print(id(df))
@@ -957,6 +1025,7 @@ row_label
 r1	00	01	02
 r2	10	11	12
 r3	20	21	22
+
 #getting colums data
 df['B']
 row_label
@@ -964,18 +1033,21 @@ r1    01
 r2    11
 r3    21
 Name: B, dtype: object
+
 #getting row data
 df.loc['r1']
 A    00
 B    01
 C    02
 Name: r1, dtype: object
+
 #getting a row by row number
 df.iloc[1]
 A    10
 B    11
 C    12
 Name: r2, dtype: object
+
 #getting multiple columns
 df[['A','B']]
 ​
@@ -984,9 +1056,11 @@ row_label
 r1	00	01
 r2	10	11
 r3	20	21
+
 #getting a specific cell
 df.loc['r2']['A']
 '10'
+
 #slicing
 df.loc['r1':'r2']
 A	B	C
@@ -1002,6 +1076,7 @@ import networkx as nx
 %matplotlib inline
 import numpy as np
 import matplotlib.pyplot as plt
+
 #constructing a simple network
 simple_network = nx.Graph()
 nodes = [1,2,3,4,5,6,7,8]
@@ -1090,6 +1165,7 @@ for d in simple_network.degree():
 print(nx.shortest_path(simple_network,6,8))
 ​
 [6, 5, 4, 9, 8]
+
 #insert items into a list
 party_list=["joana","tommy","kate"]
 print("party_list before: ",party_list)
@@ -1108,12 +1184,14 @@ party_list after:  ['joana', 'colette', 'tommy', 'kate']
 index 1 is colette 
 index 2 is tommy 
 index 3 is kate
+
 #delete a specific list index
 sample_list=[11,24,46,83,99]
 ​
 del sample_list[0]
 print("sample_list after: ",sample_list)
 sample_list after:  [24, 46, 83, 99]
+
 #.pop()get and delete item from a list
 number_list =[1,2,3,4,5]
 print("number_list before: ",number_list, "\n")
@@ -1137,6 +1215,7 @@ while dog_type:
 poodle popped , list now =  ['lab', 'pug']
 pug popped , list now =  ['lab']
 lab popped , list now =  []
+
 #delete a specific object from list with .remove()
 dog_type =["lab","pug","poodle"]
 ​
@@ -1167,6 +1246,7 @@ for sales in sales:
     
 print("total sales",total)
 total sales 51
+
 #sort and filter
 foot_bones=["calcaneus","talus","cuboid","navicular","laternal cuniform","intermidiate cuniform"]
 ​
@@ -1206,6 +1286,7 @@ print("the total # of\" "+ search_letter +"\"found in the list is",total)
 ​
 ['new york', 'jersey', 'atlanta', 'antractica', 'kentucky']
 the total # of" a"found in the list is 6
+
 #range(stop)
 digits = range(10)
 print("digits =",list(digits),"\n")
@@ -1229,6 +1310,7 @@ sub_total: 28
 sub_total: 36
 sub_total: 45
 Total= 45
+
 # range use in iteration list
 spell_list = ["tuesday","wednesday","friday","october","december","annual","calendar"]
 ​
@@ -1260,6 +1342,7 @@ sub_total: 18 + 8 + 26
 sub_total: 26 + 9 + 35
 sub_total: 35 + 10 + 45
 Total = 45
+
 #range start/stop/step
 ​
 total=0
@@ -1274,6 +1357,7 @@ print("Total =",total)
 40
 45
 Total = 175
+
 #printing the first and every other word
 spell_list =["monday","tuesday","wednesday","thursday"]
 ​
@@ -1282,6 +1366,7 @@ for index in range(0,len(spell_list),2):
     
 monday
 wednesday
+
 #combine list
 visited_cities =["new york","jersey","florida","georgia"]
 wish_cities =["tokyo","bangkok","china","india"]
@@ -1301,6 +1386,7 @@ tokyo
 bangkok
 china
 india
+
 #extend list
 visted_cities=["new york","jersey","florida","georgia"]
 wish_cities=["tokyo","bangkok","china","india"]
@@ -1308,6 +1394,7 @@ wish_cities=["tokyo","bangkok","china","india"]
 visted_cities.extend(wish_cities)
 print("all cities",visted_cities)
 all cities ['new york', 'jersey', 'florida', 'georgia', 'tokyo', 'bangkok', 'china', 'india']
+
 #reverse a list
 cities_1=["new york","jersey","florida","georgia"]
 ​
@@ -1318,6 +1405,7 @@ print("reverse order",cities_1)
 ​
 initial order ['new york', 'jersey', 'florida', 'georgia']
 reverse order ['georgia', 'florida', 'jersey', 'new york']
+
 #list sort
 quiz_score =[20,10,5,20,17,9,10]
 print("initial quiz score:",quiz_score)
@@ -1328,6 +1416,7 @@ print("sorted quiz score:",quiz_score)
 ​
 initial quiz score: [20, 10, 5, 20, 17, 9, 10]
 sorted quiz score: [5, 9, 10, 10, 17, 20, 20]
+
 #list sorted
 game_point =[20,10,5,17,3]
 ​
@@ -1337,6 +1426,7 @@ print("game_points list: ",game_point)
 print("sorted_points list:",sorted_point)
 game_points list:  [20, 10, 5, 17, 3]
 sorted_points list: [3, 5, 10, 17, 20]
+
 #converting a string to a list with .split()
 rhyme= "London bridge is falling down"
 rhyme_word=rhyme.split()
@@ -1372,6 +1462,7 @@ be
 exported
 as
 pdf
+
 #set split character
 tip ='Python_uses_space_for_indentation'
 tip_words = tip.split('_')
@@ -1385,6 +1476,7 @@ print(tip)
 print(tip_words)
 python uses space for indentation
 ['python uses sp', 'ce for indent', 'tion']
+
 #.join() method
 no_space=""
 letters =["p","y","t","o","n"]
